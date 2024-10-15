@@ -67,6 +67,20 @@ a.active,a:hover{
 #check{
   display: none;
 }
+/* Desktop layout */
+@media (min-width: 768px) {
+  /* styles for desktop layout */
+}
+
+/* Tablet layout */
+@media (min-width: 480px) and (max-width: 767px) {
+  /* styles for tablet layout */
+}
+
+/* Mobile layout */
+@media (max-width: 479px) {
+  /* styles for mobile layout */
+}
 @media screen and (max-width: 952px){
   .header-sec{
     padding: 0 40px;
@@ -253,12 +267,12 @@ body {
 }
 .blog-posts {
   max-width: 600px;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 20px;
   background-color: #FFC5C5; /* changed to white */
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: -moz-center; /* added to center the text */
+  text-align: CENTER; /* added to center the text */
 }
 
 .blog-posts h1 {
@@ -270,7 +284,7 @@ body {
 .blog-posts article {
   margin-bottom: 20px;
   display: inline-block; /* added to center the articles */
-  text-align: left; /* added to left-align the text inside articles */
+  text-align: CENTER; /* added to left-align the text inside articles */
 }
 
 .blog-posts article h2 {
@@ -280,7 +294,7 @@ body {
 }
 
 .blog-posts article p {
-  font-size: 16px;
+  font-size: 56px;
   color: #666; /* changed to dark gray */
 }
 .box {
