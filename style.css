@@ -251,3 +251,70 @@ body {
   background-size: cover;
   background-position: center;
 }
+.blog-posts {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #FFC5C5; /* changed to white */
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: -moz-center; /* added to center the text */
+}
+
+.blog-posts h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000000; /* changed to black */
+}
+
+.blog-posts article {
+  margin-bottom: 20px;
+  display: inline-block; /* added to center the articles */
+  text-align: left; /* added to left-align the text inside articles */
+}
+
+.blog-posts article h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #000000; /* changed to black */
+}
+
+.blog-posts article p {
+  font-size: 16px;
+  color: #666; /* changed to dark gray */
+}
+.box {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  transform: rotateX(0deg) rotateY(0deg);
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, #ADD8E6, #6495ED);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #0000ff;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+  animation: animate 1s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: rotateX(10deg) rotateY(10deg);
+  }
+  100% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+}
+
+
