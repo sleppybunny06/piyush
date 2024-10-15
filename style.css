@@ -330,5 +330,13 @@ body {
     transform: rotateX(0deg) rotateY(0deg);
   }
 }
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  perspective: 1000px;
+}
 
