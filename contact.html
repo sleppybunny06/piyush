@@ -3,49 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Web Site By PIYUSH</title>
-  <!-- Custom CSS Link -->
-  <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome Icon link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Social Icon Link -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Contact - PIYUSH DEV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/r9E0QYuleiv25jmq9/videoblocks-the-two-business-people-handshake-on-the-sunny-background-slow-motion_rbciusjez_thumbnail-1080_01.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .header p {
+      font-size: 18px;
+      color: #666;
+    }
+    .contact-form {
+      margin-top: 20px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+    .links {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .links a {
+      margin: 0 10px;
+      color: #337ab7;
+      text-decoration: none;
+    }
+    .links a:hover {
+      color: #23527c;
+    }
+  </style>
 </head>
-<header class="header-sec">
-  <nav>
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-      <i class="fa fa-bars"></i>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Get in Touch</h1>
+    <p>Have a question or just want to say hi? I'd love to hear from you!</p>
+  </div>
+  <form class="contact-form">
+    <label>
+      <input type="text" name="name" placeholder="Name">
     </label>
-    <label class="logo">PIYUSH<span>DEV</span></label>
-    <ul>
-      <li><a class="active" href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<div class="contact-container">
-  <h1>Contact Us</h1>
-  <form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message"></textarea><br><br>
+    <label>
+      <input type="email" name="email" placeholder="Email">
+    </label>
+    <label>
+      <textarea name="message" placeholder="Message"></textarea>
+    </label>
     <input type="submit" value="Send">
   </form>
-  <div class="contact-info">
-    <h2>Get in Touch</h2>
-    <p></p>
-    <ul>
-      <li><a href="#">Phone: 8757614289</a></li>
-      <li><a href="#">Email: [work.of.god02@gmail.com]</a></li>
-      <li><a href="#">Address: Banglore,India</a></li>
-    </ul>
+  <div class="links">
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="home.html">Home</a>
   </div>
 </div>
+</body>
 </html>
